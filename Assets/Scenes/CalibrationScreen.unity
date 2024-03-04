@@ -683,7 +683,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 454092254}
         m_TargetAssemblyTypeName: CalibrationScript, Assembly-CSharp
-        m_MethodName: loadStartScreen
+        m_MethodName: loadOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
