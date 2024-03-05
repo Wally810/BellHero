@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class KeyController : MonoBehaviour{
+public class KeyController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler{
 
-    private SpriteRenderer theSR;
+    private Image theImage;
     public Sprite defaultImage;
     public Sprite pressedImage;
 
@@ -12,17 +14,18 @@ public class KeyController : MonoBehaviour{
 
     // Start is called before the first frame update
     void Start(){
-        theSR = GetComponent<SpriteRenderer>();
+        theImage = GetComponent<Image>();
     }
 
-    // Update is called once per frame
-    void Update(){
-        if(Input.GetKeyDown(noteToPlay)){
-            theSR.sprite = pressedImage;
-        }
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        //Changes when the image (the key) is pressed
+        theImage.sprite = pressedImage;
+    }
 
-        if(Input.GetKeyUp(noteToPlay)){
-            theSR.sprite = defaultImage;
-        }
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        //Changes when the image back (the key) is released
+        theImage.sprite = defaultImage;
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine;
 public class NoteObject : MonoBehaviour {
 
     public bool canPress;
-
     public KeyCode noteToPlay;
 
     // Start is called before the first frame update
@@ -19,6 +18,8 @@ public class NoteObject : MonoBehaviour {
             if(canPress){
                 gameObject.SetActive(false);
             }
+        } else if (transform.position.y <= -700){
+            gameObject.SetActive(false);
         }
         
     }
