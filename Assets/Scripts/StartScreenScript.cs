@@ -10,8 +10,12 @@ public class StartScreenScript : MonoBehaviour
         SceneManager.LoadScene("SongSelectionScreen");
     }
 
-     public void loadCreateYourOwnSong(){
-        SceneManager.LoadScene("CreateSongScreen");
+     public void loadCalibration(){
+        SceneManager.LoadScene("CalibrationScreen");
+    }
+
+    public void loadOptions(){
+        SceneManager.LoadScene("OptionsScreen");
     }
     
 }

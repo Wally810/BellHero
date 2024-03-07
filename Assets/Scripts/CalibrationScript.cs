@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CalibrationScript : MonoBehaviour
 {
     public void loadOptions(){
-        SceneManager.LoadScene("OptionsScreen");
+        SceneManager.LoadScene("StartScreen");
     }
 }
 
