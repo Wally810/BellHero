@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 28381507}
   - component: {fileID: 28381506}
   m_Layer: 5
-  m_Name: o_little_town_of_bethlehem
+  m_Name: Button (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,19 +360,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 28381508}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &28381508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,7 +413,7 @@ GameObject:
   - component: {fileID: 66055455}
   - component: {fileID: 66055454}
   m_Layer: 5
-  m_Name: the_first_noel
+  m_Name: Button (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,19 +502,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 66055456}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &66055456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,9 +575,9 @@ RectTransform:
   m_Father: {fileID: 2094560731}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -773, y: -75}
-  m_SizeDelta: {x: -1781.8308, y: 81.39343}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -150}
+  m_SizeDelta: {x: 174.083, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103764700
 MonoBehaviour:
@@ -679,7 +655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5345ef39e5817154a8001032639149a3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c33f8cda9cb7f254d8b49308a8ac7446, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -845,7 +821,7 @@ GameObject:
   - component: {fileID: 183493396}
   - component: {fileID: 183493395}
   m_Layer: 5
-  m_Name: twelve_days_of_christmas
+  m_Name: Button (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -934,19 +910,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 183493397}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &183493397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +963,7 @@ GameObject:
   - component: {fileID: 238058590}
   - component: {fileID: 238058589}
   m_Layer: 5
-  m_Name: joy_to_the_world
+  m_Name: Button (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,19 +1052,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 238058591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &238058591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,7 +1507,7 @@ GameObject:
   - component: {fileID: 497281430}
   - component: {fileID: 497281429}
   m_Layer: 5
-  m_Name: up_on_the_housetop
+  m_Name: Button (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1644,19 +1596,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 497281431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &497281431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1709,7 +1649,7 @@ GameObject:
   - component: {fileID: 504824896}
   - component: {fileID: 504824895}
   m_Layer: 5
-  m_Name: jolly_old_saint_nicholas
+  m_Name: Button (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,19 +1738,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 504824897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &504824897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,7 +1791,7 @@ GameObject:
   - component: {fileID: 512001513}
   - component: {fileID: 512001512}
   m_Layer: 5
-  m_Name: deck_the_halls
+  m_Name: Button (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1952,19 +1880,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 512001514}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &512001514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,7 +1933,7 @@ GameObject:
   - component: {fileID: 523468690}
   - component: {fileID: 523468689}
   m_Layer: 5
-  m_Name: away_in_a_manger
+  m_Name: Button (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2106,19 +2022,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 523468691}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &523468691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2674,7 +2578,7 @@ GameObject:
   - component: {fileID: 1162807502}
   - component: {fileID: 1162807501}
   m_Layer: 5
-  m_Name: frosty_the_snowman
+  m_Name: Button (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2763,19 +2667,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1162807503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1162807503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3119,8 +3011,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -85, y: -57.251953}
-  m_SizeDelta: {x: -430, y: -256.5}
+  m_AnchoredPosition: {x: -85, y: -112.5}
+  m_SizeDelta: {x: -430, y: -375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378849645
 MonoBehaviour:
@@ -3253,7 +3145,7 @@ GameObject:
   - component: {fileID: 1401910260}
   - component: {fileID: 1401910259}
   m_Layer: 5
-  m_Name: it_came_upon_the_midnight_clear
+  m_Name: Button (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3342,19 +3234,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1401910261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1401910261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3427,8 +3307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12.0227, y: -103.9867}
-  m_SizeDelta: {x: -1261.405, y: 113.7183}
+  m_AnchoredPosition: {x: -40, y: -150}
+  m_SizeDelta: {x: -982.356, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442002466
 MonoBehaviour:
@@ -3450,7 +3330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fa8d5176c70c1f048bdb2e5a3f3c2b14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06b46c6cf6b87304883d90a01a8ca864, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3482,7 +3362,7 @@ GameObject:
   - component: {fileID: 1516543962}
   - component: {fileID: 1516543961}
   m_Layer: 5
-  m_Name: jingle_bells
+  m_Name: Button (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3571,19 +3451,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1516543963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1516543963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3673,7 +3541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.00012207031}
+  m_AnchoredPosition: {x: -0.0000076293945, y: 0}
   m_SizeDelta: {x: 1490, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1594037939
@@ -3833,8 +3701,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 798559297}
   m_HandleRect: {fileID: 798559296}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.63161737
+  m_Value: 1
+  m_Size: 0.5683756
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4025,7 +3893,7 @@ GameObject:
   - component: {fileID: 1708977787}
   - component: {fileID: 1708977786}
   m_Layer: 5
-  m_Name: im_gettin_nuttin_for_christmas
+  m_Name: Button (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4114,19 +3982,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1708977788}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1708977788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,7 +4035,7 @@ GameObject:
   - component: {fileID: 1793092430}
   - component: {fileID: 1793092429}
   m_Layer: 5
-  m_Name: a_holly_jolly_christmas
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4268,19 +4124,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1793092431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1793092431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4603,7 +4447,7 @@ GameObject:
   - component: {fileID: 1875150560}
   - component: {fileID: 1875150559}
   m_Layer: 5
-  m_Name: o_christmas_tree
+  m_Name: Button (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4692,19 +4536,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1875150561}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1875150561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4757,7 +4589,7 @@ GameObject:
   - component: {fileID: 1902531681}
   - component: {fileID: 1902531680}
   m_Layer: 5
-  m_Name: christmas_bells
+  m_Name: Button (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4846,19 +4678,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1902531682}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2094560732}
-        m_TargetAssemblyTypeName: SongSelectionScript, Assembly-CSharp
-        m_MethodName: clickedButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1902531682
 MonoBehaviour:
   m_ObjectHideFlags: 0
