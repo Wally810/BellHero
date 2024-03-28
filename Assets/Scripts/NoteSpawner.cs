@@ -19,12 +19,12 @@ public class NoteSpawner : MonoBehaviour {
         
     }
 
-    public void spawnClone(){
-        Debug.Log("Clone Spawned");
+    public void spawnClone(int noteNum){
+        //Debug.Log("Clone Spawned");
                 
-        GameObject clone = Instantiate(notePrefab, transform.position, Quaternion.identity, transform);
+        GameObject clonedNote = Instantiate(notePrefab, transform.position, Quaternion.identity, transform);
 
-        ClonedNoteScroller clonedNote = clone.GetComponent<ClonedNoteScroller>();
-        clonedNote.tempo = 120;
+        clonedNote.GetComponent<NoteObject>().noteFreqNum=noteNum;
+        clonedNote.GetComponent<ClonedNoteScroller>().tempo=120;
     }
 }
